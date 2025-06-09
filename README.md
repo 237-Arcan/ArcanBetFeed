@@ -19,34 +19,17 @@ Insights humains ou systémiques
 
 ---
 
-📊 Architecture générale du projet
-
-ArcanBetFeed/
-├── main.py                        # Orchestrateur principal
-├── feed_manager/                 # Modules de chargement des données
-│   ├── match_loader.py           # Chargement des matchs du jour
-│   ├── odds_loader.py            # Récupération des fluctuations de cotes
-│   └── stats_loader.py           # Stats joueurs (WhoScored, etc.)
-├── data_sources/                 # Référentiels GitHub clonés (soccerdata, bet365-scraper...)
-├── auto_gpt/                     # Noyau logique d'AutoGPTCore (analyse de contexte)
-├── utils/
-│   └── config.py                 # Variables d'environnement et endpoints
-├── requirements.txt             # Dépendances Python
-└── README.md                    # Ce fichier
-
-
----
 
 🚀 Sources de données intégrées
 
-Matchs du jour
+#Matchs du jour
 
 openapi-directory
 
 soccerdata
 
 
-Fluctuations des cotes
+#Fluctuations des cotes
 
 bet365-scraper
 
@@ -55,7 +38,7 @@ SportsBook
 Sports-betting
 
 
-Statistiques des joueurs
+#Statistiques des joueurs
 
 scraper-whoscored
 
