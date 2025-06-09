@@ -1,0 +1,18 @@
+{
+  "match_id": "583724",
+  "match_time": "2025-06-09T15:30:00",
+  "competition": "J-League (Japon)",
+  "team_home": "Kawasaki Frontale",
+  "team_away": "Sanfrecce Hiroshima",
+  "modules": ["ShadowOdds", "ChronoEcho", "EasternGate"],
+  "parameters": {
+    "phase_lunaire": "croissante",
+    "mirror_score": true,
+    "line_behavior": "flat_under_pressure",
+    "volume_alert": true,
+    "day_entropy": "high"
+  },
+  "goal": "Prédiction hybride à forte probabilité – But tardif ou match miroir",
+  "triggered_by": "AutoGPT",
+  "timestamp": "2025-06-08T23:45:10"
+}

@@ -1,0 +1,36 @@
+# Core orchestration
+httpx==0.27.0
+python-dotenv==1.0.1
+aiofiles==23.2.1
+
+# Data processing
+pandas==2.2.2
+numpy==1.26.4
+pyyaml==6.0.1
+
+# Rule-based engine & LangChain logic
+langchain==0.2.0
+openai==1.30.1
+tiktoken==0.7.0
+
+# Optional for future NLP enhancements or bot layer
+fastapi==0.110.1
+uvicorn==0.30.1
+
+# Parsing helpers
+lxml==5.2.1
+beautifulsoup4==4.12.3
+dateparser==1.2.0
+
+# ML pre-processing (for future enhancement: XGBoost etc.)
+scikit-learn==1.5.0
+xgboost==2.0.3
+
+# JSON schema validation / utils
+jsonschema==4.22.0
+
+# Logging & debug
+loguru==0.7.2
+
+# Async scheduling (if needed later)
+apscheduler==3.10.4
