@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Mac OS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# Logs & debug
+*.log
+*.out
+*.err
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# dotenv
+.env
+.env.*
+
+# pytest / coverage / profiling
+.cache/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Build / dist / egg
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyinstaller
+*.manifest
+*.spec
+
+# mypy / pylint / other analysis tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data / output / cache
+output/
+*.sqlite3
+*.db
+*.pid
+*.bak
+
+# GitHub workflows (if generated dynamically)
+*.secrets
+
+# Personal IDE/Editor configs
+*.sublime-workspace
+*.sublime-project
+
+# ShadowMerge-specific (si tu génères des logs internes)
+arcan_shadow.log

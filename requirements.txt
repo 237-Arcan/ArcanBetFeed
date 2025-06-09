@@ -7,22 +7,22 @@ aiofiles==23.2.1
 pandas==2.2.2
 numpy==1.26.4
 pyyaml==6.0.1
+dateparser==1.2.0
 
 # Rule-based engine & LangChain logic
 langchain==0.2.0
 openai==1.30.1
 tiktoken==0.7.0
 
-# Optional for future NLP enhancements or bot layer
+# Optional for future NLP enhancements or bot layers
 fastapi==0.110.1
 uvicorn==0.30.1
 
 # Parsing helpers
 lxml==5.2.1
 beautifulsoup4==4.12.3
-dateparser==1.2.0
 
-# ML pre-processing (for future enhancement: XGBoost etc.)
+# ML pre-processing (for future enhancement)
 scikit-learn==1.5.0
 xgboost==2.0.3
 
